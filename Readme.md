@@ -1,34 +1,43 @@
-# Analisi dei disastri aerei dal 1919 al 2023
+# Analisi Statistica degli Incidenti Aerei  
 
-La neonata IASS (International Alliance for Safe Skies) ti ha incaricato di svolgere un'accurata analisi di tutti gli incidenti aerei che si sono verificati dal 1919 al 2023.
+## 📌 Descrizione del progetto  
 
-A tale scopo ti mette a disposizione un set di dati in cui sono registrati quasi 25.000 incidenti con le seguenti informazioni:
+Questo progetto analizza gli incidenti aerei dal **1919 al 2023** utilizzando tecniche di data analysis. L'obiettivo è identificare **trend, pattern e fattori di rischio** per migliorare la sicurezza aerea.  
+L'analisi si basa su un dataset di circa **25.000 record**, che include informazioni dettagliate su **data, luogo, tipo di aeromobile, cause e numero di vittime**.  
 
-- date: data dell'incidente
-- type: tipo del veivolo
-- registration: codice di registrazione del veivolo
-- operator: operatore del veivolo
-- fatalities: numero di morti
-- location: luogo dell'incidente
-- country: nazione dell'incidente
-- cat: categoria dell'incidente come descritto dal ASN
+Attraverso strumenti di analisi avanzata e visualizzazione dati, il progetto fornisce insight utili per enti regolatori e istituzioni operanti nel settore aeronautico.  
 
-Utilizza i dati per portare alla luce, anche tramite grafici e visualizzazioni, utili insight.
+## 🛠️ Tecnologie utilizzate  
 
-## ESEMPI DI INSIGHT
+- **Linguaggio di programmazione**: Python 🐍  
+- **Librerie principali**: pandas, matplotlib, seaborn  
+- **Ambiente di sviluppo**: Jupyter Notebook  
 
-Questi sono esempi di domande alla quale puoi trovare risposta tramite i dati, non limitarti a queste ma svolgi un’analisi approfondita ponendoti ulteriori domande che pensi possano fornire insight utili:
+## 📈 Risultati ottenuti  
 
-- In quale nazione si sono verificati più incidenti?
-- Gli incidenti avvengono più di frequente durante determinati giorni della settimana?
-- Quali sono gli operatori più sicuri?
-- Quale tipo di velivolo ha causato più morti?
-- Come si sono evoluti gli incidenti dopo l'11 Settembre?
+- 📉 **Riduzione progressiva degli incidenti** negli ultimi decenni grazie a miglioramenti nella sicurezza.  
+- 🔎 **Identificazione dei fattori di rischio**, evidenziando modelli di aeromobili e condizioni operative più soggette a incidenti.  
+- 🌍 **Mappatura geografica** per individuare le regioni con maggiore frequenza di incidenti e valutare strategie di prevenzione.  
 
-## BONUS
+---
 
-Crea un cartogramma che rappresenti il numero di incidenti per nazione.
+# Statistical Analysis of Aircraft Accidents  
 
-## DATASET
+## 📌 Project Description  
 
-aviation-accidents.csv
+This project analyzes aircraft accidents from **1919 to 2023** using data analysis techniques. The goal is to identify **trends, patterns, and risk factors** to improve aviation safety.  
+The analysis is based on a dataset of approximately **25,000 records**, containing detailed information on **date, location, aircraft type, causes, and number of victims**.  
+
+Through advanced data analytics and visualization tools, the project provides valuable insights for **regulatory bodies and institutions** in the aviation sector.  
+
+## 🛠️ Technologies Used  
+
+- **Programming Language**: Python 🐍  
+- **Main Libraries**: pandas, matplotlib, seaborn  
+- **Development Environment**: Jupyter Notebook  
+
+## 📈 Results Achieved  
+
+- 📉 **Progressive reduction in accidents** over recent decades thanks to improved safety regulations.  
+- 🔎 **Identification of risk factors**, highlighting aircraft models and operational conditions more prone to accidents.  
+- 🌍 **Geographical mapping** to pinpoint regions with higher accident frequencies and assess prevention strategies.  
